@@ -41,3 +41,7 @@ private (never in Git, a README or a public post). Publish our own cut with our 
 Check the repository's visibility, the reference's licence and each platform's AI
 disclosure first (standing order 10).
 
+
+## Contributing
+
+Improvements are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). The skill stays brand-neutral and free of media; `scripts/check.sh` verifies it.

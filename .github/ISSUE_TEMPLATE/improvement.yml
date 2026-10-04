@@ -1,0 +1,15 @@
+name: Improvement
+description: A recipe, gate or step that would make a mirror faster or more reliable
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The improvement
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Why it helps
+      description: A concrete case, measurement or example. Keep it brand-neutral and free of media.
