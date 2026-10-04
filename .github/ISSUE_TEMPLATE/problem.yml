@@ -1,0 +1,22 @@
+name: Problem with the skill
+description: A wrong, missing or unclear rule, gate or recipe
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong
+      description: The step you followed and what the skill told you to do.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: File and section, for example `references/qa-gates.md`, gate S.

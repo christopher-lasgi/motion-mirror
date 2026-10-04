@@ -1,0 +1,54 @@
+[
+  {
+    "skills": ["motion-mirror"],
+    "query": "I have a 30 second reference teaser at ~/refs/teaser.mov and want to clone its rhythm for my app. Where do we start?",
+    "files": [],
+    "expected_behavior": [
+      "Keeps the reference file outside the repository",
+      "Builds or asks for a shot map with timecodes before writing any scene code",
+      "Works one scene at a time and does not render the whole film to iterate",
+      "Plans a side-by-side proof bundle for the first scene"
+    ]
+  },
+  {
+    "skills": ["motion-mirror"],
+    "query": "I only changed the score. Re-render and send me the new version.",
+    "files": [],
+    "expected_behavior": [
+      "Re-muxes the new score into the existing previews without rendering any frame",
+      "Rebuilds the proof bundle from what is already rendered",
+      "Does not start a full-film render"
+    ]
+  },
+  {
+    "skills": ["motion-mirror"],
+    "query": "Make the 9:16 version of the finished 16:9 film.",
+    "files": [],
+    "expected_behavior": [
+      "Re-blocks the stage through windows instead of a plain crop or black bands",
+      "Redraws wide content such as a chat in portrait proportions",
+      "Keeps picture events and the score identical to the master",
+      "Checks a contact sheet of the whole decline before delivering"
+    ]
+  },
+  {
+    "skills": ["motion-mirror"],
+    "query": "Add the side-by-side with the reference to our README and post it on social media.",
+    "files": [],
+    "expected_behavior": [
+      "Declines to commit or publish the pair because it carries third-party picture and sound",
+      "Proposes publishing our own cut with our own score instead",
+      "Mentions checking repository visibility, the reference's licence and each platform's AI disclosure"
+    ]
+  },
+  {
+    "skills": ["motion-mirror"],
+    "query": "The brand sent its logo kit. Put the logo on the end card.",
+    "files": [],
+    "expected_behavior": [
+      "Uses the supplied file or path instead of redrawing the mark by hand",
+      "Keeps the flat brand colour with no shadow, outline, glow or gradient",
+      "Respects the protection zone and checks the mark at 100 percent in every format"
+    ]
+  }
+]
